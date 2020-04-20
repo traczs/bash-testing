@@ -1,0 +1,23 @@
+***********************************************
+Samuel Tracz
+CIS 4150 Lab Assignment 1
+September 25, 2019
+**********************************************
+
+************************
+objective
+************************
+Compute whether or not the result of all the files is "PASS" or "FAIL". Each "PASS" is given a weight of 	
+1.25 and each "FAIL" is given a weight of -1.5. A final result of "PASS" is a score >= 0. For example, if 2 "PASS" strings are
+found across all files and 2 "FAIL"strings are found across all files, then the resulting final socre would be -0.5. Therefore the
+final result would 	be fail. However, if 3 "PASS" strings were found across all files and 2 "FAIL" strings were found across all
+files, the reulting final score would be (1.25*3 + (-1.5)*2) = 0.75. Therefore the final result would be "PASS". Display the value of
+the final result to the screen and display whether it is "PASS" or "FAIL". 
+
+
+*******************************
+running the program
+*****************************
+chmod +x labFile.sh   -to allow execution (if it's not already)
+bash labFile.sh test1.txt test2.txt test3.txt   -to run shell script  
+
